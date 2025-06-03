@@ -1,0 +1,47 @@
+{
+    "teachingHistory": [
+      {
+        "role": "Lead Instructor - Web Development Bootcamp",
+        "institution": "Tech Academy",
+        "years": "2020 - Present",
+        "description": "Designed and led a comprehensive web development bootcamp covering HTML, CSS, JavaScript, React, Node.js, and database technologies. Responsible for curriculum development, lectures, hands-on workshops, and student mentorship."
+      },
+      {
+        "role": "Adjunct Professor - Game Design",
+        "institution": "University of Creative Arts",
+        "years": "2018 - 2020",
+        "description": "Taught undergraduate courses in game design principles, level design, and game development using Unity.  Conducted lectures, project reviews, and provided individual student guidance."
+      },
+      {
+        "role": "Coding Tutor",
+        "institution": "Private Tutoring Services",
+        "years": "2016 - 2018",
+        "description": "Provided one-on-one tutoring in programming fundamentals, Python, and Java to high school and college students. Assisted with homework, exam preparation, and project guidance."
+      },
+      {
+        "role": "Workshop Facilitator - Intro to JavaScript",
+        "institution": "Community Tech Center",
+        "years": "2017",
+        "description": "Facilitated introductory JavaScript workshops for adults looking to learn basic web development skills. Covered fundamental concepts, DOM manipulation, and basic scripting."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Computer Science",
+        "institution": "University of Technology",
+        "years": "2018",
+        "details": "Specialized in Software Engineering and Game Development. GPA: 3.9/4.0. Relevant coursework included: Advanced Algorithms, 3D Graphics, Game Engine Architecture, Web Application Development."
+      },
+      {
+        "degree": "Bachelor of Science in Information Technology",
+        "institution": "State University",
+        "years": "2016",
+        "details": "Focused on web technologies and database management. Graduated with Honors."
+      }
+    ],
+    "certifications": [
+      "Certified Web Developer",
+      "Unity Certified Associate: Programmer",
+      "AWS Certified Cloud Practitioner"
+    ]
+  }

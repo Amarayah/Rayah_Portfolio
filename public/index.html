@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Rayah's 3D Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayah's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="canvas-container"></div>
-    <div id="interaction-window" style="display: none;">
-        <div id="interaction-content"></div>
-        <button id="close-interaction">Close</button>
+    <div id="npc-dialogue"></div>
+    <div id="popup-container">
+        <div class="popup">
+            <div class="popup-content" id="popup-content">
+            </div>
+            <button onclick="hidePopup()">Close</button>
+        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
-    <script src="script.js"></script>
+    <canvas id="c"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r154/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@r154/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@r154/examples/js/loaders/GLTFLoader.js"></script>
+    <script type="importmap">{
+        "imports": {
+            "three": "https://threejs.org/build/three.module.js",
+            "three/addons/": "https://threejs.org/examples/jsm/"
+        }
+    }</script>
+    <script src="script.js" type="module"></script>
 </body>
 </html>

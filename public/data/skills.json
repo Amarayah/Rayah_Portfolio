@@ -1,0 +1,45 @@
+{
+    "programmingLanguages": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "C#",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "currentlyLearning": [
+      "Three.js",
+      "React",
+      "Node.js",
+      "GraphQL",
+      "WebAssembly"
+    ],
+    "frameworksAndLibraries": [
+      "Express.js",
+      "React.js",
+      "Angular",
+      "Vue.js",
+      "Three.js",
+      "Babylon.js",
+      "Unity"
+    ],
+    "toolsAndTechnologies": [
+      "Git",
+      "GitHub",
+      "npm",
+      "postman",
+      "Blender",
+      "Photoshop",
+      
+      
+    ],
+    "otherSkills": [
+      "Agile Development",
+      "Problem Solving",
+      "Communication",
+      "Teamwork",
+      "Project Management",
+      "Technical Writing"
+    ]
+  }

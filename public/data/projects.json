@@ -1,0 +1,29 @@
+{
+    "projects": [
+      {
+        "title": "3D Portfolio Website (This Website!)",
+        "description": "A fully interactive 3D portfolio website built using Three.js to showcase skills, projects, and resume in an engaging way.",
+        "technologies": ["Three.js", "JavaScript", "HTML", "CSS", "GLTF models", "JSON data"]
+      },
+      {
+        "title": "E-commerce Web Application",
+        "description": "Developed a responsive e-commerce platform with user authentication, product catalog, shopping cart, and secure payment gateway.",
+        "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "Stripe API", "Redux", "Material UI"]
+      },
+      {
+        "title": "Mobile Game: 'Space Explorer'",
+        "description": "Created a mobile game for Android and iOS using Unity engine, featuring multiple levels, enemy AI, and user score system.",
+        "technologies": ["Unity", "C#", "Game Design", "Mobile Development", "Asset Store Assets"]
+      },
+      {
+        "title": "Data Visualization Dashboard",
+        "description": "Built an interactive dashboard to visualize sales data using charts and graphs, allowing users to filter and analyze data in real-time.",
+        "technologies": ["Angular", "TypeScript", "D3.js", "REST APIs", "Chart.js", "Responsive Design"]
+      },
+      {
+        "title": "Python Web Scraper",
+        "description": "Developed a Python script to scrape product information and reviews from e-commerce websites, storing data in CSV and JSON formats.",
+        "technologies": ["Python", "Beautiful Soup", "Requests", "Web Scraping", "Data Analysis", "CSV", "JSON"]
+      }
+    ]
+  }

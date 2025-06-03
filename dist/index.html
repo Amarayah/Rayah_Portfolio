@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayah's Portfolio</title>
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+    <style>body { margin: 0; }
+        canvas { display: block; }
+        #npc-dialogue {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            display: none; /* Initially hidden */
+        }
+        #popup-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+            display: none; /* Initially hidden */
+            justify-content: center;
+            align-items: center;
+            z-index: 10; /* Ensure it's on top */
+        }
+        .popup {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .popup-content {
+            /* Style your popup content here */
+        }</style>
+<script src="/style.e308ff8e.js"></script></head>
+<body>
+    <div id="npc-dialogue">NPC Dialogue will appear here.</div>
+    <div id="popup-container">
+        <div class="popup">
+            <div class="popup-content" id="popup-content">
+                </div>
+            <button onclick="hidePopup()">Close</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r154/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@r154/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@r154/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="/script.75da7f30.js" type="module"></script>
+</body>
+</html>

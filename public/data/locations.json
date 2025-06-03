@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Skills Area",
+      "npcName": "gym_npc",
+      "dataFile": "./data/skills.json",
+      "popupTitle": "Skills",
+      "locationDescription": "The Skills Area, where you can explore my technical proficiencies and areas of expertise."
+    },
+    {
+      "name": "Project Gallery",
+      "npcName": "portfolio_npc",
+      "dataFile": "./data/projects.json",
+      "popupTitle": "Projects",
+      "locationDescription": "Welcome to the Project Gallery, showcasing a collection of my web development, game development, and other endeavors."
+    },
+    {
+      "name": "Resume Hall",
+      "npcName": "learn_npc",
+      "dataFile": "./data/resume.json",
+      "popupTitle": "Resume",
+      "locationDescription": "Step into the Resume Hall to review my teaching history, education, and professional background."
+    }
+  ]

@@ -1,0 +1,11 @@
+/* Basic styling to remove body margins and ensure canvas fills viewport */
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars if canvas is slightly larger than viewport */
+}
+
+canvas {
+    display: block; /* Prevent scrollbars on some browsers */
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
